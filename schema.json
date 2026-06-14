@@ -1,19 +1,64 @@
 {
-  "deepseek_api_key": {
-    "type": "sensitive",
-    "name": "DeepSeek API Key",
-    "default": "",
-    "hint": "\u586b\u5199 DeepSeek API Key"
+  "section_deepseek": {
+    "type": "section",
+    "name": "DeepSeek",
+    "collapsed": true,
+    "fields": {
+      "deepseek_base_url": {
+        "type": "string",
+        "name": "API 基础网址",
+        "default": "https://api.deepseek.com",
+        "hint": "DeepSeek API 的基础 URL"
+      },
+      "deepseek_api_key": {
+        "type": "sensitive",
+        "name": "API Key",
+        "default": "",
+        "hint": "填写 DeepSeek API Key"
+      }
+    }
   },
-  "siliconflow_api_key": {
-    "type": "sensitive",
-    "name": "SiliconFlow API Key",
-    "default": "",
-    "hint": "\u586b\u5199 SiliconFlow API Key"
+  "section_siliconflow": {
+    "type": "section",
+    "name": "SiliconFlow",
+    "collapsed": true,
+    "fields": {
+      "siliconflow_base_url": {
+        "type": "string",
+        "name": "API 基础网址",
+        "default": "https://api.siliconflow.cn",
+        "hint": "SiliconFlow API 的基础 URL"
+      },
+      "siliconflow_api_key": {
+        "type": "sensitive",
+        "name": "API Key",
+        "default": "",
+        "hint": "填写 SiliconFlow API Key"
+      }
+    }
+  },
+  "section_moonshot": {
+    "type": "section",
+    "name": "月之暗面 (Kimi)",
+    "collapsed": true,
+    "fields": {
+      "moonshot_base_url": {
+        "type": "string",
+        "name": "API 基础网址",
+        "default": "https://api.moonshot.cn/v1",
+        "hint": "月之暗面 API 的基础 URL"
+      },
+      "moonshot_api_key": {
+        "type": "sensitive",
+        "name": "API Key",
+        "default": "",
+        "hint": "填写 Kimi API Key，从 platform.moonshot.cn 获取"
+      }
+    }
   },
   "enable_keyword_trigger": {
     "type": "switch",
-    "name": "\u542f\u7528\u5173\u952e\u8bcd\u89e6\u53d1",
+    "name": "启用关键词触发",
     "default": true
   }
 }
