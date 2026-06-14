@@ -4,5 +4,5 @@
   "version": "2.0.0",
   "author": "ChuXia",
   "description": "查询 DeepSeek  、SiliconFlow 及moonshot API 余额",
-  "repo": ""
+  "repo": "https://github.com/ChuXia2004/plugin-api-balance"
 }
