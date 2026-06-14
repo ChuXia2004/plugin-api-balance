@@ -1,9 +1,8 @@
 {
-  "display_name": "API\u4f59\u989d\u67e5\u8be2",
+  "display_name": "API余额查询",
   "plugin_id": "kira-ai-plugin-api-balance",
-  "version": "1.0.0",
-  "core_version": ">=1.0.0",
+  "version": "2.0.0",
   "author": "ChuXia",
-  "description": "\u67e5\u8be2 DeepSeek \u548c SiliconFlow API \u4f59\u989d",
+  "description": "查询 DeepSeek  、SiliconFlow 及moonshot API 余额",
   "repo": ""
 }
