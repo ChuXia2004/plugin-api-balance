@@ -51,7 +51,7 @@
 示例：
 ```
 我的站点1;https://api.example.com;sk-xxxxxxxx;123456;500000
-我的站点2;https://api2.example.com;sk-yyyyyyyy;789012;1000000
+我的站点2;https://api2.example.com;sk-yyyyyyyy;789012
 ```
 
 #### 2. JSON 格式
